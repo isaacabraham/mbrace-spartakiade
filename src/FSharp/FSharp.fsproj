@@ -65,10 +65,11 @@
     <None Include="Scripts\4. Interop.fsx" />
     <None Include="Scripts\5. Parallel.fsx" />
     <None Include="Scripts\6. CloudFiles.fsx" />
-    <None Include="Scripts\7. CloudFlow.fsx" />
+    <None Include="Scripts\8. CloudFlow.fsx" />
     <None Include="Scripts\SetupThespian.fsx" />
     <None Include="Scripts\load-references-debug.fsx" />
     <None Include="Scripts\load-project-debug.fsx" />
+    <None Include="Scripts\7. CloudFlow.fsx" />
     <Content Include="data\aliceinwonderland.txt" />
     <Content Include="data\huckleberryfinn.txt" />
     <Content Include="data\prideprejudice.txt" />
