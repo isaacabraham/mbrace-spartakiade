@@ -24,6 +24,6 @@
 #r "../../../packages/Vagabond/lib/net45/Vagabond.dll"
 #r "../../../packages/XPlot.GoogleCharts/lib/net45/XPlot.GoogleCharts.dll"
 #r "../../../packages/XPlot.GoogleCharts.WPF/lib/net45/XPlot.GoogleCharts.WPF.dll"
-#r "../../CSharp/bin/Debug/CSharp.dll"
 #r "../../../packages/MBrace.Flow/lib/net45/MBrace.Flow.dll"
 #r "../../../packages/Streams/lib/net45/Streams.dll"
+#r "../../CSharp/bin/Debug/Helpers.dll"

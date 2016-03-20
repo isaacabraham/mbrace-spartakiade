@@ -12,8 +12,8 @@ let addNumbers(a, b) =
     printfn "Adding %d and %d" a b
     a + b
 
-// Easy - wrap it in cloud { }. MBrace will send across the function to the node as a compiled
-// .NET assembly automatically.
+(* Easy - wrap it in cloud { }. MBrace will send across the function to the node
+   as a compiled .NET assembly automatically. *)
 let answer =
     cloud {
         return addNumbers(5, 10)

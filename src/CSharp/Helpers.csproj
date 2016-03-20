@@ -7,8 +7,8 @@
     <ProjectGuid>{34BF9F3C-D87E-443E-A28C-86D5B751E8D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharp</RootNamespace>
-    <AssemblyName>CSharp</AssemblyName>
+    <RootNamespace>Helpers</RootNamespace>
+    <AssemblyName>Helpers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

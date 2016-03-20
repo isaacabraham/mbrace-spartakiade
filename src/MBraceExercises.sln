@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp", "FSharp\FSharp.fsproj", "{0DCD47D8-3A19-4615-88BD-F146B2256006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{34BF9F3C-D87E-443E-A28C-86D5B751E8D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "CSharp\Helpers.csproj", "{34BF9F3C-D87E-443E-A28C-86D5B751E8D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D8DAFAE-4AA9-4768-A213-7FC66AF9BB9B}"
 	ProjectSection(SolutionItems) = preProject

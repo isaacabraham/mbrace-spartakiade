@@ -61,7 +61,7 @@
     <Compile Include="GeoCoder.fs" />
     <None Include="Scripts\1. Hello World.fsx" />
     <None Include="Scripts\2. Captured code.fsx" />
-    <None Include="Scripts\3. Chains.fsx" />
+    <None Include="Scripts\3. Composing workflows.fsx" />
     <None Include="Scripts\4. Interop.fsx" />
     <None Include="Scripts\5. Parallel.fsx" />
     <None Include="Scripts\6. CloudFiles.fsx" />
@@ -82,8 +82,10 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
-    <ProjectReference Include="..\CSharp\CSharp.csproj">
-      <Name>CSharp</Name>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharp\Helpers.csproj">
+      <Name>Helpers</Name>
       <Project>{34bf9f3c-d87e-443e-a28c-86d5b751e8d0}</Project>
       <Private>True</Private>
     </ProjectReference>
