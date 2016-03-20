@@ -6,12 +6,19 @@ open MBrace.Thespian
 open System.IO
 open TextCalculator
 open MBrace.Core
+open System
 
+/// Creates a cluster.
 let createCluster() =
     ThespianWorker.LocalExecutable <- Path.Combine(@"..\..\..\..\packages\MBrace.Thespian\tools\mbrace.thespian.worker.exe")
     ThespianCluster.InitOnCurrentMachine(4, logger = new ConsoleLogger(), logLevel = LogLevel.Info)
 
-/// Uploads a file
+/// Shuts down the cluster.
+let shutDown (cluster:ThespianCluster) =
+    cluster.KillAllWorkers()
+    cluster.ClearSystemLogs()
+
+/// Uploads a file.
 let uploadFile (file:string) =
     let cloudFilename = Path.GetFileName file
     cloud {
